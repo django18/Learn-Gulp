@@ -1,0 +1,48 @@
+$color_1: rgb(0, 123, 255);
+$white: white;
+$background_color_1: rgb(0, 123, 255);
+$background_color_2: #62cef8;
+//$gradient: linear-gradient(to right, rgba(88,104,140,1) 0%, rgba(61,29,156,1) 100%);
+$card-color:white;
+body {
+	background: url('../images/gaming-pattern.png') repeat;
+}
+.game-list {
+	display: flex;
+	padding: 20px 0px;
+	.col-md-3 {
+		margin-bottom: 10px;
+		flex: 1;
+	}
+}
+.card {
+	img {
+		border-bottom: 2px solid rgb(228, 227, 227);
+		padding: 5px;
+	}
+	.card-body {
+        padding: 5px;
+        background: $background_color_1;
+        color: $card-color;
+	}
+}
+.card-title {
+	color: $white;
+	align-content: center;
+}
+.header {
+	background-color: $background_color_1;
+	color: $white;
+}
+.searchContainer {
+	padding: 10px;
+	background-color: $background_color_2;
+}
+#autoCompleteList {
+	max-height: 200px;
+	position: absolute;
+	z-index: 2;
+	.list-group-item {
+		width: 100%;
+	}
+}

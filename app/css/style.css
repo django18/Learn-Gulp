@@ -1,0 +1,37 @@
+body {
+  background: url("../images/gaming-pattern.png") repeat; }
+
+.game-list {
+  display: flex;
+  padding: 20px 0px; }
+  .game-list .col-md-3 {
+    margin-bottom: 10px;
+    flex: 1; }
+
+.card img {
+  border-bottom: 2px solid #e4e3e3;
+  padding: 5px; }
+
+.card .card-body {
+  padding: 5px;
+  background: #007bff;
+  color: white; }
+
+.card-title {
+  color: white;
+  align-content: center; }
+
+.header {
+  background-color: #007bff;
+  color: white; }
+
+.searchContainer {
+  padding: 10px;
+  background-color: #62cef8; }
+
+#autoCompleteList {
+  max-height: 200px;
+  position: absolute;
+  z-index: 2; }
+  #autoCompleteList .list-group-item {
+    width: 100%; }
